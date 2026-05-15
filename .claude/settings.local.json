@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile config.py database/models.py database/db.py middlewares/db.py states/calculator.py states/settings.py services/calculator.py services/ai_service.py keyboards/main.py keyboards/calculator.py keyboards/products.py keyboards/ai_content.py keyboards/settings.py handlers/start.py handlers/calculator.py handlers/products.py handlers/ai_content.py handlers/settings.py bot.py)",
+      "Bash(python -m py_compile services/ai_service.py)"
+    ]
+  }
+}
