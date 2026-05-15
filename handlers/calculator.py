@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from config import MENU_BUTTONS
 from database.models import User, Product
 from keyboards.calculator import get_category_keyboard, get_save_keyboard
-from keyboards.main import get_main_keyboard
+from keyboards.menu import get_main_keyboard
 from services.calculator import calculate, format_result
 from states.calculator import CalculatorStates
 

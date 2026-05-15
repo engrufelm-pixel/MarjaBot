@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from config import AITUNNEL_API_KEY, AITUNNEL_BASE_URL
 from database.models import Product, User
 from keyboards.ai_content import get_ai_content_keyboard, get_ai_product_list_keyboard
-from keyboards.main import get_main_keyboard
+from keyboards.menu import get_main_keyboard
 from services.ai_service import AIService
 
 router = Router()

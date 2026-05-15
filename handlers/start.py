@@ -6,7 +6,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from database.models import User
-from keyboards.main import get_main_keyboard
+from keyboards.menu import get_main_keyboard
 
 router = Router()
 

@@ -11,7 +11,7 @@ from keyboards.products import (
     get_product_detail_keyboard,
     get_delete_confirm_keyboard,
 )
-from keyboards.main import get_main_keyboard
+from keyboards.menu import get_main_keyboard
 from states.calculator import CalculatorStates
 
 router = Router()

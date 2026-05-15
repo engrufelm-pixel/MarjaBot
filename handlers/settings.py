@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from config import MENU_BUTTONS
 from database.models import User
 from keyboards.settings import get_settings_keyboard
-from keyboards.main import get_main_keyboard
+from keyboards.menu import get_main_keyboard
 from states.settings import SettingsStates
 
 router = Router()

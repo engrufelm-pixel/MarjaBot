@@ -1,17 +1,4 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+# Переименовано в keyboards/menu.py — этот файл оставлен для обратной совместимости
+from keyboards.menu import get_main_keyboard
 
-
-def get_main_keyboard() -> ReplyKeyboardMarkup:
-    return ReplyKeyboardMarkup(
-        keyboard=[
-            [
-                KeyboardButton(text="🧮 Быстрый расчет"),
-                KeyboardButton(text="📦 Мои товары"),
-            ],
-            [
-                KeyboardButton(text="🤖 AI-Контент"),
-                KeyboardButton(text="⚙️ Настройки"),
-            ],
-        ],
-        resize_keyboard=True,
-    )
+__all__ = ["get_main_keyboard"]
